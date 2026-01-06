@@ -1,0 +1,48 @@
+# --------------------
+# Sistema / OS
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# Node / JS (se houver)
+# --------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --------------------
+# Android / Emulator (LIXO)
+# --------------------
+.android/
+*.keystore
+*.jks
+*.lock
+*.xml
+*.ini
+*.avd
+*.qcow2
+*.img
+*.pb
+*.bin
+*.dat
+*.log
+*.cache
+
+# --------------------
+# VS Code
+# --------------------
+.vscode/
+
+# --------------------
+# Env / secrets
+# --------------------
+.env
+.env.*
+
+# --------------------
+# Misc
+# --------------------
+*.tmp
+*.swp
